@@ -10,7 +10,7 @@
   - Shadowsocks
   - SOCKS5
   - HTTP
-- **多传输方式与性能优化**
+- **多传输方式与性能****优化**
   - 同时支持 **WebSocket** 和 **xHTTP** 和 **Grpc** 传输方式；
   - 独家采用优化的 `manualPipe` 函数进行流量转发，相比传统stream流式的 `pipeTo` ，CPU 开销大幅降低 **6 倍**。
 - **WASM 加速解析**
